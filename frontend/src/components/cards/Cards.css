@@ -1,0 +1,26 @@
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 50%;
+  height: 20%;
+  /* border: 1px solid red; */
+}
+
+button {
+  width: 30rem;
+  border: transparent;
+  border-radius: 4px;
+  height: 3.5rem;
+  color: #000;
+  background-color: var(--primary-color);
+  cursor: pointer;
+  font-family: "Urbanist", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.1rem;
+  /* padding: auto 20px; */
+  border: 1px solid red;
+}

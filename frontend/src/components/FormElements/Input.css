@@ -1,0 +1,20 @@
+.input-control {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.review-input-element {
+  width: 100%;
+}
+
+input::placeholder {
+  font-family: "Urbanist", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  padding-left: 1rem;
+}
+
+input:focus {
+  outline: 2px solid var(--primary-color);
+}

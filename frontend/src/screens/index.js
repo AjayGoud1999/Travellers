@@ -1,0 +1,10 @@
+export { default as Register } from "./registerPage/Register.jsx";
+export { default as Login } from "./loginPage/Login.jsx";
+export { default as Home } from "./homePage/Home.jsx";
+export { default as ExplorePlaces } from "./explorePlacesPage/ExplorePlace.jsx";
+export { default as FavPlaces } from "./favPlacesPage/FavPlace.jsx";
+export { default as PlaceDetails } from "./placeDetailsPage/PlaceDetail.jsx";
+export { default as ReviewPage } from "./reviewsPage/Reviews.jsx";
+export { default as AddReviewPage } from "./addUserReviewPage/AddUserReview.jsx";
+export { default as AddStatePage } from "./addState/AddState.jsx";
+export { default as AddPlacePage } from "./addPlace/AddPlace.jsx";

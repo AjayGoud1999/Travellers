@@ -1,0 +1,26 @@
+.navlinks-container {
+  flex: 1;
+  margin: 0 2rem;
+  /* border: 1px solid red; */
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  font-size: 1.5rem;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  margin: 1rem 2rem;
+  padding: 0.5rem 0;
+  border-bottom: transparent;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+
+li:hover {
+  border-bottom: 1px solid var(--primary-color);
+}

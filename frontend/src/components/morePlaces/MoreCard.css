@@ -1,0 +1,24 @@
+.morecard-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 14rem;
+  height: 14rem;
+  /* background-color: blue; */
+  border-radius: 10px;
+  margin-right: 3rem;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+
+.morecard-container:hover {
+  scale: 1.05;
+}

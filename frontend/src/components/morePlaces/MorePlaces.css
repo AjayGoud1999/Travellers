@@ -1,0 +1,15 @@
+.moreplaces-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* flex-wrap: nowrap; */
+
+  overflow-y: scroll;
+  /* border: 1px solid teal; */
+  height: 100%;
+  transition: 0.3s all ease-in-out;
+}
+
+.moreplaces-container::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,7 @@
+.states-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* width: calc(100vh - 5rem); */
+  /* border: 1px solid red; */
+}
